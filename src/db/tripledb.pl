@@ -415,9 +415,9 @@ tripledb_bulk_tell(Facts,Scope,Options) :-
   ).
 
 %%
-# tripledb_stop(S,P,Scope,Options) :-
-# 	% TODO implement
-# 	true.
+% tripledb_stop(S,P,Scope,Options) :-
+% 	% TODO implement
+% 	true.
 tripledb_stop(_,_,_,_) :-
 	true.
 
