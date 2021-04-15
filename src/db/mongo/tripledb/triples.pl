@@ -936,7 +936,7 @@ get_scope_query2_(Query,'',[Operator,Value]) :-
 
 %%
 
-:- table(g_get_scope_document_/2).
+# :- table(get_scope_document_/2).
 get_scope_document_(Dict,List) :- get_scope_document_1(Dict,List).
 get_scope_document_1(Dict,List) :-
 	is_dict(Dict),
