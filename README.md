@@ -17,7 +17,6 @@ These instructions will get you a copy of KnowRob up and running on your local m
 - ROS (*ROS melodic* for the master branch)
 - SWI Prolog >= 7.6
 - mongo DB server >= 4.2 and libmongoc
-- [rosprolog](https://github.com/knowrob/rosprolog)
 
 ### Installation
 
@@ -27,7 +26,7 @@ We have prepared different *.rosinstall* setup files that you can add to your RO
 ```Bash
 rosdep update
 cd ~/catkin_ws/src
-wstool merge https://raw.github.com/knowrob/knowrob/master/rosinstall/knowrob-base.rosinstall
+wstool merge https://raw.github.com/K4R-IAI/knowrob/master/rosinstall/knowrob-k4r.rosinstall
 wstool update
 rosdep install --ignore-src --from-paths .
 cd ~/catkin_ws

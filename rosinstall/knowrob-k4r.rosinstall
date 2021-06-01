@@ -1,0 +1,5 @@
+- git: {local-name: knowrob, uri: 'https://github.com/K4R-IAI/knowrob.git', version: master }
+- git: {local-name: rosprolog, uri: 'https://github.com/knowrob/rosprolog.git', version: master }
+- git: {local-name: iai_common_msgs, uri: 'https://github.com/code-iai/iai_common_msgs.git', version: master }
+- git: {local-name: knowrob_refills, uri: 'https://github.com/K4R-IAI/knowrob_refills.git', version: neems }
+- git: {local-name: knowrob_k4r, uri: 'https://github.com/K4R-IAI/knowrob_k4r.git', version: master}
